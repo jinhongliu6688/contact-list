@@ -1,0 +1,53 @@
+header {
+    position: relative;
+}
+.add-link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+}
+
+.container{
+    max-width: 428px;
+    margin: 0 auto;;
+    min-height: 100vh;
+}
+
+.contact-section{
+    display: flex;
+}
+
+.contact-section:hover{
+    color:grey;
+}
+
+.contact-section i.bxs-user-rectangle {
+    padding-top: 17px;
+    font-size: 80px;
+}
+
+.contacts-details {
+    padding-left: 10px;
+}
+
+.contacts-list a {
+    color: inherit;
+}
+
+.contacts-list a:visited {
+    color: inherit;
+}
+
+#text{
+    color:grey;
+}
+
+#email{
+    color:grey;
+    text-transform: lowercase;
+}
+
+.fa-thin{
+    color: blue;
+}
